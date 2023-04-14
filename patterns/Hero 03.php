@@ -44,19 +44,19 @@ $img = get_images_from_excelovita();
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:gallery {"columns":2,"linkTo":"none"} -->
 <figure class="wp-block-gallery has-nested-images columns-2 is-cropped"><!-- wp:image {"id":435,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( $img[2]);?>" alt="" class="wp-image-435"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x400.png") ); ?>" alt="" class="wp-image-435"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":435,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( $img[2]);?>" alt="" class="wp-image-435"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x400.png") ); ?>" alt="" class="wp-image-435"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":435,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( $img[2]);?>" alt="" class="wp-image-435"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x400.png") ); ?>" alt="" class="wp-image-435"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":435,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( $img[2]);?>" alt="" class="wp-image-435"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x400.png") ); ?>" alt="" class="wp-image-435"/></figure>
 <!-- /wp:image --></figure>
 <!-- /wp:gallery --></div>
 <!-- /wp:column --></div>

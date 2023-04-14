@@ -58,7 +58,7 @@ $img = get_images_from_excelovita();
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"base"} -->
-<p class="has-base-color has-text-color"><?php esc_html_e('About Us'); ?></p>
+<p class="has-base-color has-text-color"><?php esc_html_e('About Us', 'excelovita-wp'); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"base"} -->

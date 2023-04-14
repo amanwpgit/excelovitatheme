@@ -26,7 +26,7 @@ $img = get_images_from_excelovita();
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"id":435,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( $img[2]);?>" alt="" class="wp-image-435"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x400.png") ); ?>" alt="" class="wp-image-435"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -40,25 +40,25 @@ $img = get_images_from_excelovita();
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e( 'We have simplified the way you build your website. Use patterns to quickly add pre designed section or full-page. Replace any text, heading, sub heading or images with native WordPress builder. No third party page builder required.', 'excelovita-wp' ); ?> </p>
+<p><?php esc_html_e( 'We have simplified the way you build your website. Use patterns to quickly add pre designed section or full-page. Replace any text, heading, sub heading or images with native WordPress builder. No third party page builder required.', 'excelovita-wp' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":50,"width":150,"height":150,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( $img[1]);?>" alt="" class="wp-image-50" width="150" height="150"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x600.png") ); ?>" alt="" class="wp-image-50" width="150" height="150"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":50,"width":150,"height":150,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( $img[1]);?>" alt="" class="wp-image-50" width="150" height="150"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x600.png") ); ?>" alt="" class="wp-image-50" width="150" height="150"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":50,"width":150,"height":150,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( $img[1]);?>" alt="" class="wp-image-50" width="150" height="150"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x600.png") ); ?>" alt="" class="wp-image-50" width="150" height="150"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

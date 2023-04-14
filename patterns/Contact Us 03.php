@@ -24,7 +24,7 @@ $img = get_images_from_excelovita();
 <div class="wp-block-column" style="flex-basis:60%"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}},"border":{"width":"1px"}},"borderColor":"neutral"} -->
 <div class="wp-block-column has-border-color has-neutral-border-color" style="border-width:1px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:image {"align":"center","id":833,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( $img[9]);?>" alt="" class="wp-image-833"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_phone.png") ); ?>" alt="" class="wp-image-833"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -38,7 +38,7 @@ $img = get_images_from_excelovita();
 
 <!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}},"border":{"width":"1px"}},"borderColor":"neutral"} -->
 <div class="wp-block-column has-border-color has-neutral-border-color" style="border-width:1px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:image {"align":"center","id":837,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( $img[7]);?>" alt="" class="wp-image-837"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_map.png") ); ?>" alt="" class="wp-image-837"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -54,7 +54,7 @@ $img = get_images_from_excelovita();
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}},"border":{"width":"1px"}},"borderColor":"neutral"} -->
 <div class="wp-block-column has-border-color has-neutral-border-color" style="border-width:1px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:image {"align":"center","id":838,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( $img[6]);?>" alt="" class="wp-image-838"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_mail.png") ); ?>" alt="" class="wp-image-838"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -72,7 +72,7 @@ $img = get_images_from_excelovita();
 
 <!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}},"border":{"width":"1px"}},"borderColor":"neutral"} -->
 <div class="wp-block-column has-border-color has-neutral-border-color" style="border-width:1px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:image {"align":"center","id":833,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( $img[9]);?>" alt="" class="wp-image-833"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_phone.png") ); ?>" alt="" class="wp-image-833"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center"} -->

@@ -43,7 +43,7 @@ $img = get_images_from_excelovita();
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":385,"width":450,"height":450,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( $img[1]);?>" alt="" class="wp-image-385" width="450" height="450"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x600.png") ); ?>" alt="" class="wp-image-385" width="450" height="450"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

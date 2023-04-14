@@ -19,19 +19,19 @@ $img = get_images_from_excelovita();
 <div class="wp-block-columns alignwide has-base-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:gallery {"columns":2,"linkTo":"none","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
 <figure class="wp-block-gallery has-nested-images columns-2 is-cropped"><!-- wp:image {"id":435,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( $img[2]);?>" alt="" class="wp-image-435"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x400.png") ); ?>" alt="" class="wp-image-435"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":435,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( $img[2]);?>" alt="" class="wp-image-435"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x400.png") ); ?>" alt="" class="wp-image-435"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":435,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( $img[2]);?>" alt="" class="wp-image-435"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x400.png") ); ?>" alt="" class="wp-image-435"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":435,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( $img[2]);?>" alt="" class="wp-image-435"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x400.png") ); ?>" alt="" class="wp-image-435"/></figure>
 <!-- /wp:image --></figure>
 <!-- /wp:gallery --></div>
 <!-- /wp:column -->

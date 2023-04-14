@@ -14,8 +14,9 @@ $img = get_images_from_excelovita();
  ?>
 
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0"><!-- wp:cover {"url":"<?php echo esc_url($img[5]); ?>","id":394,"hasParallax":true,"dimRatio":50,"overlayColor":"primary","minHeight":50,"minHeightUnit":"px","align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-<div class="wp-block-cover alignfull has-parallax" style="margin-top:0;margin-bottom:0;min-height:50px"><span aria-hidden="true" class="wp-block-cover__background has-primary-background-color has-background-dim"></span><div role="img" class="wp-block-cover__image-background wp-image-394 has-parallax" style="background-position:50% 50%;background-image:url(<?php echo esc_url($img[5]); ?>)"></div><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"full","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri("assets/images/img_bg1.png") ); ?>","id":394,"hasParallax":true,"dimRatio":50,"overlayColor":"primary","minHeight":50,"minHeightUnit":"px","align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
+<div class="wp-block-cover alignfull has-parallax" style="margin-top:0;margin-bottom:0;min-height:50px"><span aria-hidden="true" class="wp-block-cover__background has-primary-background-color has-background-dim"></span><div role="img" class="wp-block-cover__image-background wp-image-394 has-parallax" style="background-position:50% 50%;background-image:url(<?php echo esc_url( get_theme_file_uri("assets/images/img_bg1.png") ); ?>
+)"></div><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"full","layout":{"type":"constrained","contentSize":"1200px"}} -->
 <div class="wp-block-group alignfull"><!-- wp:columns {"align":"full","style":{"spacing":{"blockGap":{"top":"0","left":"0"}}}} -->
 <div class="wp-block-columns alignfull"><!-- wp:column -->
 <div class="wp-block-column"></div>

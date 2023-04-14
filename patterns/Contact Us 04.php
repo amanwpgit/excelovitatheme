@@ -32,7 +32,7 @@ $img = get_images_from_excelovita();
 <div class="wp-block-columns"><!-- wp:column {"width":"100%"} -->
 <div class="wp-block-column" style="flex-basis:100%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","margin":{"top":"0","bottom":"0"}}},"className":"ktjsr-icon-row","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group ktjsr-icon-row" style="margin-top:0;margin-bottom:0"><!-- wp:image {"id":837,"width":38,"height":38,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $img[7]);?>" alt="" class="wp-image-837" width="38" height="38"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_map.png") ); ?>" alt="" class="wp-image-837" width="38" height="38"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -42,7 +42,7 @@ $img = get_images_from_excelovita();
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":838,"width":38,"height":38,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $img[6]);?>" alt="" class="wp-image-838" width="38" height="38"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_mail.png") ); ?>" alt="" class="wp-image-838" width="38" height="38"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -52,7 +52,7 @@ $img = get_images_from_excelovita();
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":833,"width":38,"height":38,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $img[9]);?>" alt="" class="wp-image-833" width="38" height="38"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_phone.png") ); ?>" alt="" class="wp-image-833" width="38" height="38"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

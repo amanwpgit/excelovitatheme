@@ -30,7 +30,7 @@ $img = get_images_from_excelovita();
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":435,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( $img[2]);?>" alt="" class="wp-image-435"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x400.png") ); ?>" alt="" class="wp-image-435"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 

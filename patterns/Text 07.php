@@ -18,7 +18,7 @@ $img = get_images_from_excelovita();
 <div class="wp-block-group alignwide"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":385,"width":450,"height":450,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( $img[1]);?>" alt="" class="wp-image-385" width="450" height="450"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x600.png") ); ?>" alt="" class="wp-image-385" width="450" height="450"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -37,12 +37,12 @@ $img = get_images_from_excelovita();
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:image {"id":345,"width":50,"height":41,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $img[0]);?>" alt="" class="wp-image-345" width="50" height="41"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_icon.png") ); ?>" alt="" class="wp-image-345" width="50" height="41"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":4,"style":{"typography":{"textTransform":"none"},"spacing":{"margin":{"bottom":"6px"}}}} -->
-<h4 class="wp-block-heading" style="margin-bottom:6px;text-transform:none"><?php esc_html_e( '', 'excelovita-wp' ); ?>Pattern 1</h4>
+<h4 class="wp-block-heading" style="margin-bottom:6px;text-transform:none"><?php esc_html_e( 'Pattern 1', 'excelovita-wp' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -53,12 +53,12 @@ $img = get_images_from_excelovita();
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:image {"id":345,"width":50,"height":41,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $img[0]);?>" alt="" class="wp-image-345" width="50" height="41"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_icon.png") ); ?>" alt="" class="wp-image-345" width="50" height="41"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":4,"style":{"typography":{"textTransform":"none"},"spacing":{"margin":{"bottom":"6px"}}}} -->
-<h4 class="wp-block-heading" style="margin-bottom:6px;text-transform:none"><?php esc_html_e( 'Pattern 2', 'excelovita-wp' ); ?>Pattern 2</h4>
+<h4 class="wp-block-heading" style="margin-bottom:6px;text-transform:none"><?php esc_html_e( 'Pattern 2', 'excelovita-wp' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -69,12 +69,12 @@ $img = get_images_from_excelovita();
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40)"><!-- wp:image {"id":345,"width":50,"height":41,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( $img[0]);?>" alt="" class="wp-image-345" width="50" height="41"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_icon.png") ); ?>" alt="" class="wp-image-345" width="50" height="41"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":4,"style":{"typography":{"textTransform":"none"},"spacing":{"margin":{"bottom":"6px"}}}} -->
-<h4 class="wp-block-heading" style="margin-bottom:6px;text-transform:none"><?php esc_html_e( '', 'excelovita-wp' ); ?>Pattern 3</h4>
+<h4 class="wp-block-heading" style="margin-bottom:6px;text-transform:none"><?php esc_html_e( 'Pattern 3', 'excelovita-wp' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->

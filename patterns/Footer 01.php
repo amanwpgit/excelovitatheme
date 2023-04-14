@@ -35,7 +35,7 @@ $img = get_images_from_excelovita();
 <div class="wp-block-group alignwide"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"id":347,"width":50,"height":41,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($img[0]) ?>" alt="" class="wp-image-347" width="50" height="41"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_600x600.png") ); ?>" alt="" class="wp-image-347" width="50" height="41"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"textColor":"base"} -->

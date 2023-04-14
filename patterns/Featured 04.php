@@ -17,8 +17,8 @@ $img = get_images_from_excelovita();
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--30)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( $img[4]);?>","id":395,"dimRatio":10,"overlayColor":"dark","minHeight":371,"minHeightUnit":"px"} -->
-<div class="wp-block-cover" style="min-height:371px"><span aria-hidden="true" class="wp-block-cover__background has-dark-background-color has-background-dim-10 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-395" alt="" src="<?php echo esc_url( $img[4]);?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:columns -->
+<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri("assets/images/img_bg2.png") ); ?>","id":395,"dimRatio":10,"overlayColor":"dark","minHeight":371,"minHeightUnit":"px"} -->
+<div class="wp-block-cover" style="min-height:371px"><span aria-hidden="true" class="wp-block-cover__background has-dark-background-color has-background-dim-10 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-395" alt="" src="<?php echo esc_url( get_theme_file_uri("assets/images/img_bg2.png") ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading -->
 <h2 class="wp-block-heading"><?php esc_html_e( 'Patterns', 'excelovita-wp' ); ?></h2>
@@ -41,8 +41,8 @@ $img = get_images_from_excelovita();
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( $img[4]);?>","id":395,"dimRatio":10,"overlayColor":"dark","minHeight":371,"minHeightUnit":"px"} -->
-<div class="wp-block-cover" style="min-height:371px"><span aria-hidden="true" class="wp-block-cover__background has-dark-background-color has-background-dim-10 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-395" alt="" src="<?php echo esc_url( $img[4]);?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:columns -->
+<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri("assets/images/img_bg2.png") ); ?>","id":395,"dimRatio":10,"overlayColor":"dark","minHeight":371,"minHeightUnit":"px"} -->
+<div class="wp-block-cover" style="min-height:371px"><span aria-hidden="true" class="wp-block-cover__background has-dark-background-color has-background-dim-10 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-395" alt="" src="<?php echo esc_url( get_theme_file_uri("assets/images/img_bg2.png") ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading -->
 <h2 class="wp-block-heading"><?php esc_html_e( 'Patterns', 'excelovita-wp' ); ?></h2>

@@ -33,7 +33,7 @@ $img = get_images_from_excelovita();
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":833,"width":25,"height":25,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($img[9]); ?>" alt="" class="wp-image-833" width="25" height="25"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_phone.png") ); ?>" alt="" class="wp-image-833" width="25" height="25"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -51,7 +51,7 @@ $img = get_images_from_excelovita();
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":838,"width":25,"height":25,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($img[6]); ?>" alt="" class="wp-image-838" width="25" height="25"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_mail.png") ); ?>" alt="" class="wp-image-838" width="25" height="25"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -71,7 +71,7 @@ $img = get_images_from_excelovita();
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":837,"width":25,"height":25,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($img[7]); ?>" alt="" class="wp-image-837" width="25" height="25"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri("assets/images/img_map.png") ); ?>" alt="" class="wp-image-837" width="25" height="25"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
