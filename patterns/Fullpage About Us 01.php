@@ -8,9 +8,6 @@
  * Block Types: core/post-content
  */
 
-$img = get_images_from_excelovita();
-
-
 
  ?>
 

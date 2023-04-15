@@ -26,7 +26,7 @@ require get_template_directory() . '/inc/setup.php';
 //regiter custom pattern category for this theme
 // WORDPRESS CORE PATTERN CATEGORIES ***** Buttons, Columns, Gallery, Header, Footers, Text, Query, Featured(only if core patterns are active)
 
-$wcpatterns = array("Hero", "Featured", "Testimonials", "Contact", "CTA", "Fullpage", "Services", "Posts", "Layout", "Pricing", "Team", "Text", "Headers", "Section", "Footers");
+$wcpatterns = array("Hero", "Featured", "Testimonials", "Contact", "CTA", "Services", "Posts", "Layout", "Pricing", "Team", "Text", "Headers", "Section", "Footers", "Fullpage");
 
 foreach ($wcpatterns as $value) {
   if ( function_exists( 'register_block_pattern_category' ) ) {

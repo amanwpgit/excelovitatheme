@@ -7,8 +7,6 @@
  * Inserter: yes
  */
 
-$img = get_images_from_excelovita();
-
 
 
  ?>
